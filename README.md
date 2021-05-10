@@ -7,6 +7,6 @@ In order to run this script you should install below package via apt-get or any 
 
 
 ## OPTIONAL
-On Crontab below should be applied by the use of "sudo crontab -e". We use sudo to edit crontab in order to run our scripts as sudo (YES! This is the way run as sudo)
+On Crontab below should be applied by the use of "sudo crontab -e". We use sudo to edit crontab in order to run our scripts as sudo (YES! This is the way of running our cronjob commands as sudo)
 
 ##### @reboot ./mount.sh >> mount.log 2>&1      
